@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">QuizApplication</string>
+
+    <string-array name="questions">
+        <item>"Which IDE is used in SIT305?"</item>
+        <item>"Which programming language is used in SIT305?"</item>
+        <item>"Where should solutions be submitted in SIT305?"</item>
+        <item>"Which LLM will be studied in SIT305?"</item>
+        <item>"What is SIT305 about?"</item>
+    </string-array>
+
+
+    <string-array name="q1Answers">
+        <item>"Visual Studio Code"</item>
+        <item>"Visual Studio"</item>
+        <item>"Android Studio"</item>
+    </string-array>
+
+    <string-array name="q2Answers">
+        <item>"Java"</item>
+        <item>"Kotlin"</item>
+        <item>"C++"</item>
+    </string-array>
+
+    <string-array name="q3Answers">
+        <item>"Ontrack"</item>
+        <item>"GitHub"</item>
+        <item>"GitHub and OnTrack"</item>
+    </string-array>
+
+    <string-array name="q4Answers">
+        <item>"chatGPT"</item>
+        <item>"Llama2"</item>
+        <item>"Bard"</item>
+    </string-array>
+
+    <string-array name="q5Answers">
+        <item>"OOD"</item>
+        <item>"Mobile development"</item>
+        <item>"Data Structures"</item>
+    </string-array>
+
+    <string-array name="correctAnswers">
+        <item>"Android Studio"</item>
+        <item>"Java"</item>
+        <item>"GitHub and OnTrack"</item>
+        <item>"Llama2"</item>
+        <item>"Mobile development"</item>
+    </string-array>
+
+
+</resources>
+
+
+
+
