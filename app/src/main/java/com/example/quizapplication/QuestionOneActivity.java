@@ -32,7 +32,7 @@ public class QuestionOneActivity extends BaseActivity {
 
         loadQuestionPage();
 
-        Log.d("Q1", "onCreate: " + currentQuestionIndex);
+
 
         //set welcome message
         welcomeText.setText("Welcome, " + name);

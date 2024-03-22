@@ -29,7 +29,7 @@ public class QuestionFiveActivity extends BaseActivity {
 
         loadQuestionPage();
 
-        Log.d("Q5", "onCreate: " + currentQuestionIndex);
+
 
     }
 }

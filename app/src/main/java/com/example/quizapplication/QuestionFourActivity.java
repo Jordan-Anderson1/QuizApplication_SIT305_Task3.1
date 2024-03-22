@@ -30,7 +30,7 @@ public class QuestionFourActivity extends BaseActivity {
 
         loadQuestionPage();
 
-        Log.d("Q4", "onCreate: " + currentQuestionIndex);
+
     }
 
 }
