@@ -14,9 +14,16 @@ public class MainActivity extends AppCompatActivity {
     EditText nameInput;
     TextView welcome;
 
+    String name;
+
     public void getStarted(View view){
         Intent intent = new Intent(this, QuestionOneActivity.class);
-        intent.putExtra("name", nameInput.getText().toString());
+        if(name == null){
+            intent.putExtra("name", nameInput.getText().toString());
+        }else{
+            intent.putExtra("name", name);
+        }
+
         startActivity(intent);
 
     }
@@ -29,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         nameInput = findViewById(R.id.nameEditText);
 
         Intent intent = getIntent();
-        String name = intent.getStringExtra("name");
+        name = intent.getStringExtra("name");
         welcome = findViewById(R.id.enterNameLabel);
 
         //if name was retrieved from intent it will be displayed otherwise will prompt to enter name

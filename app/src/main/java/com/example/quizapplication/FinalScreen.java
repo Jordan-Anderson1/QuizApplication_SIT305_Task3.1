@@ -11,7 +11,9 @@ import android.widget.TextView;
 public class FinalScreen extends AppCompatActivity {
 
 
-    String name;
+    private String name;
+
+    private int score;
 
     //goes back to start and remembers name
     public void newQuiz(View view){
@@ -33,7 +35,7 @@ public class FinalScreen extends AppCompatActivity {
 
         Intent intent = getIntent();
         name = intent.getStringExtra("name");
-        int score = intent.getIntExtra("score", 0);
+        score = intent.getIntExtra("score", 0);
 
         TextView congratulationsText = findViewById(R.id.congratulationsText);
         TextView scoreText = findViewById(R.id.scoreText);
