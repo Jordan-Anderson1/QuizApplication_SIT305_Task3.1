@@ -41,6 +41,7 @@
         android:layout_width="120dp"
         android:layout_height="0dp"
         android:text="QuestionNumber"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/q1Content"
         app:layout_constraintStart_toStartOf="@+id/q1Content"
         app:layout_constraintTop_toBottomOf="@+id/quizProgressBar" />

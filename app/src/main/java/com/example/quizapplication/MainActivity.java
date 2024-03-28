@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         //if name was retrieved from intent it will be displayed otherwise will prompt to enter name
         if(name != null){
             nameInput.setVisibility(View.INVISIBLE);
-            welcome.setText("Let's play again, " + name);
+            welcome.setText("Let's play again, " + name + "!");
         }
 
 

@@ -30,6 +30,7 @@
         android:layout_marginBottom="30dp"
         android:gravity="center"
         android:text="Enter your name:"
+        app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toTopOf="@+id/nameEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
