@@ -35,7 +35,7 @@ public class QuestionOneActivity extends BaseActivity {
 
 
         //set welcome message
-        welcomeText.setText("Welcome, " + name);
+        welcomeText.setText("Welcome, " + name + "!");
 
 
 

@@ -13,9 +13,10 @@
         android:layout_marginStart="57dp"
         android:layout_marginTop="34dp"
         android:layout_marginEnd="57dp"
-        android:layout_marginBottom="518dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
         android:text="Welcome (name)"
-        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintBottom_toTopOf="@+id/quizProgressBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,10 +27,12 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="57dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="57dp"
         android:layout_marginBottom="32dp"
         app:layout_constraintBottom_toTopOf="@+id/q1Title"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
 
