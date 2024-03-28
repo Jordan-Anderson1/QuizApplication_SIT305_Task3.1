@@ -42,7 +42,7 @@ public class FinalScreen extends AppCompatActivity {
         Button finishButton = findViewById(R.id.finishButton);
         Button newQuizButton = findViewById(R.id.newQuizButton);
 
-        congratulationsText.setText("Congratulations, " + name);
+        congratulationsText.setText("Congratulations, " + name + "!");
         scoreText.setText("You scored " + score +"/5!");
     }
 }
