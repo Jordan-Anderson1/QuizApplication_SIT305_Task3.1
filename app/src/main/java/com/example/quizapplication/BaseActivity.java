@@ -100,7 +100,7 @@ public class BaseActivity extends AppCompatActivity {
         ans3 = findViewById(R.id.answer3Button);
         nextButton = findViewById(R.id.nextButton);
         progressBar = findViewById(R.id.quizProgressBar);
-        progressBar.setProgress((int)(((currentQuestionIndex + 1) / 5.0) * 100));
+        progressBar.setProgress((int)(((currentQuestionIndex) / 5.0) * 100));
 
     }
 
