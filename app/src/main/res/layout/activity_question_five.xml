@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".QuestionFiveActivity">
 
     <TextView
@@ -17,7 +18,8 @@
         app:layout_constraintBottom_toTopOf="@+id/nextButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#FFFFFF"/>
 
     <ProgressBar
         android:id="@+id/quizProgressBar"
@@ -27,6 +29,11 @@
         android:layout_marginStart="57dp"
         android:layout_marginEnd="57dp"
         android:layout_marginBottom="32dp"
+        android:foregroundTint="#FDFDFD"
+        android:foregroundTintMode="src_over"
+        android:progressBackgroundTint="#FFFFFF"
+        android:progressBackgroundTintMode="src_over"
+        android:progressTint="#000000"
         app:layout_constraintBottom_toTopOf="@+id/q1Title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,13 +41,15 @@
 
     <TextView
         android:id="@+id/q1Title"
-        android:layout_width="120dp"
-        android:layout_height="0dp"
+        android:layout_width="296dp"
+        android:layout_height="56dp"
         android:text="QuestionNumber"
         android:textStyle="bold"
+        app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toTopOf="@+id/q1Content"
         app:layout_constraintStart_toStartOf="@+id/q1Content"
-        app:layout_constraintTop_toBottomOf="@+id/quizProgressBar" />
+        app:layout_constraintTop_toBottomOf="@+id/quizProgressBar"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/q1Content"
@@ -50,10 +59,13 @@
         android:layout_marginEnd="57dp"
         android:layout_marginBottom="39dp"
         android:text="Some question details...."
+        app:autoSizeTextType="uniform"
+        android:gravity="left"
         app:layout_constraintBottom_toTopOf="@+id/answer1Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/q1Title" />
+        app:layout_constraintTop_toBottomOf="@+id/q1Title"
+        android:textColor="#FFFFFF"/>
 
     <Button
         android:id="@+id/answer1Button"
@@ -67,7 +79,11 @@
         app:layout_constraintBottom_toTopOf="@+id/answer2Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/q1Content" />
+        app:layout_constraintTop_toBottomOf="@+id/q1Content"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        app:strokeColor="#000000"
+        app:strokeWidth="3dp"/>
 
     <Button
         android:id="@+id/answer2Button"
@@ -81,7 +97,11 @@
         app:layout_constraintBottom_toTopOf="@+id/answer3Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/answer1Button" />
+        app:layout_constraintTop_toBottomOf="@+id/answer1Button"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        app:strokeColor="#000000"
+        app:strokeWidth="3dp"/>
 
     <Button
         android:id="@+id/answer3Button"
@@ -95,7 +115,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/answer2Button" />
+        app:layout_constraintTop_toBottomOf="@+id/answer2Button"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        app:strokeColor="#000000"
+        app:strokeWidth="3dp"/>
 
     <Button
         android:id="@+id/nextButton"
@@ -108,6 +132,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
+        app:layout_constraintTop_toBottomOf="@+id/welcomeText"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        app:strokeColor="#000000"
+        app:strokeWidth="3dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

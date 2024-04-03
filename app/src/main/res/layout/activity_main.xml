@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/background">
 
     <EditText
         android:id="@+id/nameEditText"
@@ -13,8 +14,14 @@
         android:layout_marginStart="43dp"
         android:layout_marginEnd="43dp"
         android:layout_marginBottom="68dp"
+        android:autoText="false"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="src_over"
         android:ems="10"
+        android:gravity="center"
         android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/getStartedButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,11 +37,13 @@
         android:layout_marginBottom="30dp"
         android:gravity="center"
         android:text="Enter your name:"
+        android:textColor="#FFFFFF"
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toTopOf="@+id/nameEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <Button
         android:id="@+id/getStartedButton"
@@ -45,6 +54,12 @@
         android:layout_marginBottom="287dp"
         android:onClick="getStarted"
         android:text="Get Started!"
+        android:textColorHighlight="#808080"
+        android:textColorLink="#808080"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        app:strokeColor="#000000"
+        app:strokeWidth="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
